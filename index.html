@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,27 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <link href="./assets/fonts/Figtree-VariableFont_wght.ttf">
-
   <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="white-box">
-    <img id="article-img" src="./assets/images/illustration-article.svg">
-    <div id="tag">Learning</div>
-    <div class="publish-date">Published 21 Dec 2023</div>
-    <h2>HTML & CSS foundations</h2>
-    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    <div id="author"><span id="author-img"></span> Greg Hooper</div>
-  </div>
+  <main>
+    <div class="white-box">
+      <img class="article-img" src="./assets/images/illustration-article.svg">
+      <div class="tag">Learning</div>
+      <div class="publish-date">Published 21 Dec 2023</div>
+      <a href="#" class="blog-title"><h2>HTML & CSS foundations</h2></a>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div class="author"><img src="./assets/images/image-avatar.webp" alt="Profile picture of Greg Hooper" class="author-img"> Greg Hooper</div>
+    </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Danielle Sum</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/danilscodes">Danielle Sum</a>.
+    </div>
+  </footer>
 </body>
+
 </html>
